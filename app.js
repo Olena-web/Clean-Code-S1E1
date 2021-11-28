@@ -96,6 +96,7 @@ var editTask=function(){
         //label becomes the inputs value.
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
+        listItem.classList.add('incomplete-tasks__item')
     }else{
         editInput.value=label.innerText;
         editBtn.innerText="Save";
